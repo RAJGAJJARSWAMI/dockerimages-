@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/vamsijakkula/hellowhale.git', branch:'master'
+        git 'https://github.com/RAJGAJJARSWAMI/dockerimages-.git', branch:'master'
       }
     }
     
